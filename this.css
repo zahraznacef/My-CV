@@ -1,0 +1,42 @@
+
+:root{
+    --font: "Roboto", sans-serif;
+}
+body{
+    font-family: var(--font);
+}
+.apply{
+    color: aqua;
+    animation: run 3s ease-in-out infinite forwards ;
+    font-weight: 400;
+}
+@keyframes run {
+    0%{transform: translateX(0px);}
+    50%{transform: translateX(350px);}
+    100%{transform: translateX(0px);}
+}
+#react{
+    border-radius: 50%;
+}
+th,td{
+    border:1px solid black;
+}
+form label{
+    margin-top: 10px;
+    font-size: 20px;
+    color: violet;
+    height: 200px;
+    width: auto;
+}
+.input{
+    outline: none;
+    border-radius: 20px;
+    background-color: blueviolet;
+    border: none;
+    height: 30px;
+    width: 500px;
+    padding-left: 10px;
+    font-family: var(--font);
+    font-size: 18px;
+    color: aqua;
+}
